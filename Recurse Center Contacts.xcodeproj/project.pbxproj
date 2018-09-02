@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6357AAF5213B924200C4DE85 /* PlayingWithViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingWithViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6357AAF5213B924200C4DE85 /* Recurse Center Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recurse Center Contacts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6357AAF8213B924200C4DE85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6357AAFA213B924200C4DE85 /* ContactListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListController.swift; sourceTree = "<group>"; };
 		6357AAFD213B924200C4DE85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		6357AAEC213B924200C4DE85 = {
 			isa = PBXGroup;
 			children = (
-				6357AAF7213B924200C4DE85 /* PlayingWithViews */,
+				6357AAF7213B924200C4DE85 /* Recurse Center Contacts */,
 				6357AAF6213B924200C4DE85 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		6357AAF6213B924200C4DE85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6357AAF5213B924200C4DE85 /* PlayingWithViews.app */,
+				6357AAF5213B924200C4DE85 /* Recurse Center Contacts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6357AAF7213B924200C4DE85 /* PlayingWithViews */ = {
+		6357AAF7213B924200C4DE85 /* Recurse Center Contacts */ = {
 			isa = PBXGroup;
 			children = (
 				63682F44213C5306008180BE /* nouns.txt */,
@@ -70,15 +70,15 @@
 				6357AB01213B924500C4DE85 /* LaunchScreen.storyboard */,
 				6357AB04213B924500C4DE85 /* Info.plist */,
 			);
-			path = PlayingWithViews;
+			path = "Recurse Center Contacts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6357AAF4213B924200C4DE85 /* PlayingWithViews */ = {
+		6357AAF4213B924200C4DE85 /* Recurse Center Contacts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6357AB07213B924500C4DE85 /* Build configuration list for PBXNativeTarget "PlayingWithViews" */;
+			buildConfigurationList = 6357AB07213B924500C4DE85 /* Build configuration list for PBXNativeTarget "Recurse Center Contacts" */;
 			buildPhases = (
 				6357AAF1213B924200C4DE85 /* Sources */,
 				6357AAF2213B924200C4DE85 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = PlayingWithViews;
+			name = "Recurse Center Contacts";
 			productName = PlayingWithViews;
-			productReference = 6357AAF5213B924200C4DE85 /* PlayingWithViews.app */;
+			productReference = 6357AAF5213B924200C4DE85 /* Recurse Center Contacts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6357AAF0213B924200C4DE85 /* Build configuration list for PBXProject "PlayingWithViews" */;
+			buildConfigurationList = 6357AAF0213B924200C4DE85 /* Build configuration list for PBXProject "Recurse Center Contacts" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6357AAF4213B924200C4DE85 /* PlayingWithViews */,
+				6357AAF4213B924200C4DE85 /* Recurse Center Contacts */,
 			);
 		};
 /* End PBXProject section */
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6357AAF0213B924200C4DE85 /* Build configuration list for PBXProject "PlayingWithViews" */ = {
+		6357AAF0213B924200C4DE85 /* Build configuration list for PBXProject "Recurse Center Contacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6357AB05213B924500C4DE85 /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6357AB07213B924500C4DE85 /* Build configuration list for PBXNativeTarget "PlayingWithViews" */ = {
+		6357AB07213B924500C4DE85 /* Build configuration list for PBXNativeTarget "Recurse Center Contacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6357AB08213B924500C4DE85 /* Debug */,
