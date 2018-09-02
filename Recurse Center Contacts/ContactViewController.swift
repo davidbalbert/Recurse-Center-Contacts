@@ -1,6 +1,6 @@
 //
 //  ContactViewController.swift
-//  PlayingWithViews
+//  Recurse Center Contacts
 //
 //  Created by David Albert on 9/2/18.
 //  Copyright © 2018 David Albert. All rights reserved.

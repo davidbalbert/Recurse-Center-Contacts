@@ -29,7 +29,7 @@
         <!--Contact List Controller-->
         <scene sceneID="blP-OH-nD4">
             <objects>
-                <tableViewController id="loQ-Xt-hWN" customClass="ContactListController" customModule="PlayingWithViews" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="loQ-Xt-hWN" customClass="ContactListController" customModule="Recurse_Center_Contacts" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="RH8-J8-XiH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,7 +71,7 @@
         <!--Contact View Controller-->
         <scene sceneID="u37-kH-Xdz">
             <objects>
-                <viewController id="0Lk-8J-K2X" customClass="ContactViewController" customModule="PlayingWithViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0Lk-8J-K2X" customClass="ContactViewController" customModule="Recurse_Center_Contacts" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OAa-Aj-Y6A">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

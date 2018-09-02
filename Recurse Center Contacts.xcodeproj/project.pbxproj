@@ -89,7 +89,7 @@
 			dependencies = (
 			);
 			name = "Recurse Center Contacts";
-			productName = PlayingWithViews;
+			productName = RecurseCenterContacts;
 			productReference = 6357AAF5213B924200C4DE85 /* Recurse Center Contacts.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -299,7 +299,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = is.dave.PlayingWithViews;
+				PRODUCT_BUNDLE_IDENTIFIER = is.dave.RecurseCenterContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +317,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = is.dave.PlayingWithViews;
+				PRODUCT_BUNDLE_IDENTIFIER = is.dave.RecurseCenterContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
