@@ -9,6 +9,9 @@
 import UIKit
 
 struct Contact : Comparable {
+    let firstName: String
+    let lastName: String
+
     static func < (lhs: Contact, rhs: Contact) -> Bool {
         if lhs.lastName == rhs.firstName {
             return lhs.firstName < rhs.firstName
@@ -20,7 +23,4 @@ struct Contact : Comparable {
     var name: String {
         return "\(firstName) \(lastName)"
     }
-
-    let firstName: String
-    let lastName: String
 }
