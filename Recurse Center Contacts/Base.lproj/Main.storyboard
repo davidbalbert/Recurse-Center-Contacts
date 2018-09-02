@@ -14,8 +14,8 @@
         <scene sceneID="NXp-ni-3BA">
             <objects>
                 <navigationController id="Tkl-PO-aug" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GNV-ab-jec">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="GNV-ab-jec">
+                        <rect key="frame" x="0.0" y="44" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -26,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="-398" y="86"/>
         </scene>
-        <!--Contact List Controller-->
+        <!--Contacts-->
         <scene sceneID="blP-OH-nD4">
             <objects>
                 <tableViewController id="loQ-Xt-hWN" customClass="ContactListController" customModule="Recurse_Center_Contacts" customModuleProvider="target" sceneMemberID="viewController">
@@ -62,7 +62,7 @@
                             <outlet property="delegate" destination="loQ-Xt-hWN" id="ieu-W3-IFr"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="s1K-T0-fh3"/>
+                    <navigationItem key="navigationItem" title="Contacts" id="s1K-T0-fh3"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sTU-CQ-6Hw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -77,7 +77,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEs-Ro-1UV">
-                                <rect key="frame" x="156.66666666666666" y="150" width="61.666666666666657" height="31.333333333333343"/>
+                                <rect key="frame" x="156.66666666666666" y="202" width="61.666666666666657" height="31.333333333333343"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

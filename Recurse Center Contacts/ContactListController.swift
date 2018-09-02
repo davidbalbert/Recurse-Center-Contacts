@@ -16,6 +16,8 @@ class ContactListController: UITableViewController {
         super.viewDidLoad()
         contacts = makeContacts()
         sections = contacts.keys.sorted()
+        navigationItem.searchController = UISearchController(searchResultsController: nil)
+        navigationItem.hidesSearchBarWhenScrolling = false
     }
 
     // replace with array.randomElement() in Swift 4.2
