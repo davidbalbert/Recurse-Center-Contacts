@@ -15,7 +15,22 @@ class ContactViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         name.text = contact.name
-        navigationItem.largeTitleDisplayMode = .never
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+
+        let navBar = navigationController!.navigationBar
+        navBar.setBackgroundImage(UIImage(), for: .default)
+        navBar.shadowImage = UIImage()
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+
+        let navBar = navigationController!.navigationBar
+        navBar.setBackgroundImage(nil, for: .default)
+        navBar.shadowImage = nil
     }
 
     override func didReceiveMemoryWarning() {
